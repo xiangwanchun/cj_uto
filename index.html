@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--web-font-->
+	<link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Rouge+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
+	<!--//web-font-->
+	<!-- js -->
+	<script src="js/jquery.min.js"></script>
+	<!-- //js -->
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	</script>
+	<script src="http://ajax.useso.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- //Custom Theme files -->
+	<!-- start-smoth-scrolling-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-logo">
+				<a href="#"><img src="images/logo.png" alt="logo"/></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"></span>
+				<ul class="nav1">
+					<li><a href="#linkdone-bottom" class="active scroll">产品介绍</a></li>
+					<li><a href="#how" class="scroll">关于我们</a></li>
+					<li><a href="#link" class="scroll">联系方式</a></li>
+				</ul>
+			</div>
+			<!-- script-for-menu -->
+				<script>
+				   $( "span.menu" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					});
+				   $('.scroll').click(function(){
+				   		if ( $("span.menu:visible").length ) {
+				   			$('.nav1').hide()
+				   		};
+				   })
+				   
+				</script>
+			<!-- /script-for-menu -->
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//header-->
+	<!--linkdone-->
+	<div class="linkdone">
+		<div class="container">
+			<div class="linkdone-text">
+				<div class="linkdone-grids">
+					<div class="col-md-11 linkdone-grids-left">
+						<img src="images/img1.jpg" alt="img"/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//linkdone-->
+	<!--linkdone-bottom-->
+	<div class="linkdone-bottom" id="linkdone-bottom">
+		<div class="container">
+			<div class="col-md-8 linkdone-bottom-grids col-sm-12 col-xs-12">
+				<ul class="uto-service clearfix">
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key1.png" alt="一键约车" title="一键约车"></li>
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key5.png" alt="上门接驾" title="上门接驾"></li>
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key3.png" alt="无需换乘" title="无需换乘"></li>
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key7.png" alt="全程保险" title="全程保险"></li>
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key2.png" alt="实时监控" title="实时监控"></li>
+					<li class="col-md-4 col-sm-6 col-xs-6"><img src="./images/key4.png" alt="GPS定位" title="GPS定位"></li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12 linkdone-bottom-grids uto-service-r clearfix">
+				<ul>
+					<li><a href="javascript:void(0);">旨在打造</a></li>
+					<li><a href="javascript:void(0);">高效安全的用车平台</a></li>	
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//linkdone-bottom-->
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+	<!--why-->
+	<div class="why" id="why">
+		<div class="container">
+			<div class="why-grids">
+				<h2 class="text-center AboutUs-title">从小愿变大圆</h2>
+				<p class="text-center AboutUs-des">以成都为圆心，不断延伸服务半径</p>
+				<div class="col-md-4 why-grids-info col-sm-4 col-xs-6">
+					<img src="images/chat.png" alt="chat"/>
+					<p>悠途很年轻<br>认真是我们的态度</p>
+				</div>	
+				<div class="col-md-4 why-grids-info col-sm-4 col-xs-6">
+					<img src="images/people.png" alt="people"/>
+					<p>悠途在成长<br>感谢您每一份关爱</p>
+				</div>
+				<div class="col-md-4 why-grids-info col-sm-4 col-xs-6">
+					<img src="images/link.png" alt="link"/>
+					<p>我们相信<br>志之所趋，无远弗届</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>	
+		</div>
+	</div>
+	<!--//why-->
+	<!--how-->
+	<div class="how clearfix" id="how">
+		<div class="container">
+			<div class="how-grids clearfix">
+				<div class="col-md-6 how-grids-left col-sm-12 col-xs-12 clearfix">
+					<img src="images/img2.png" alt="system" style="width:100%" />
+				</div>	
+				<div class="col-md-6 col-sm-12 col-xs-12 how-grids-right clearfix">
+					<h2 class="logo1"><img src="images/img2-1.png" alt=""></h2>
+					<p class="how-1 clearfix">我们专注于30-300公里出行新方式的创新型互联网公司，秉承“简化出行成本，优化出行体验，保障出行安全”的服务理念。</p>
+					<p class="how-2">愿您每一次出行都成为悠途</p>
+				</div>
+	
+			</div>	
+			
+		</div>
+	</div>
+	<!--//how-->
+	<!--user-cases-->
+	<div class="user-cases" id="help">
+		<h4>一个热情洋溢、勇于挑战的年轻团队!</h4>	
+		<!-- banner Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		 <script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+			  // Slideshow 4
+			  $("#slider4").responsiveSlides({
+				auto: true,
+				pager: false,
+				nav: true,
+				speed: 1000,
+				namespace: "callbacks",
+				before: function () {
+				  $('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+				  $('.events').append("<li>after event fired.</li>");
+				}
+			  });
+		
+			});
+		  </script>
+		<!--//End-slider-script -->
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider4">
+				<li>
+					<div class="user-cases-info">
+						<div class="col-md-4">
+							<div class="user-cases-grids">
+								<img src="images/img22.jpg" alt="system"/>
+							</div>	
+						</div>
+						<div class="col-md-4">
+							<div class="user-cases-grids middle">
+								<img src="images/img23.jpg" alt="system"/>
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="user-cases-grids bottom">
+								<img src="images/img24.jpg" alt="system"/>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</li>
+				<li>
+					<div class="user-cases-info">
+						<div class="col-md-4">
+							<div class="user-cases-grids">
+								<img src="images/img23.jpg" alt="system"/>
+							</div>	
+						</div>
+						<div class="col-md-4">
+							<div class="user-cases-grids middle">
+								<img src="images/img24.jpg" alt="system"/>
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="user-cases-grids bottom">
+								<img src="images/img22.jpg" alt="system"/>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</li>	
+				<li>
+					<div class="user-cases-info">
+						<div class="col-md-4">
+							<div class="user-cases-grids">
+								<img src="images/img24.jpg" alt="system"/>
+							</div>	
+						</div>
+						<div class="col-md-4">
+							<div class="user-cases-grids middle">
+								<img src="images/img22.jpg" alt="system"/>
+							</div>	
+						</div>	
+						<div class="col-md-4">
+							<div class="user-cases-grids bottom">
+								<img src="images/img23.jpg" alt="system"/>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</li>	
+			</ul>
+		</div>
+		<div class="clearfix">
+		</div>
+	</div>
+	<!--//user-cases-->	
+	<!--blog-->
+	<div class="blog" id="link">
+		<div class="container">
+			<div class="adress-grids">
+				<div class="col-md-6 col-sm-12 " style='padding:0px;margin-bottom:20px'>
+					<img src="images/img28.jpg" alt="uto地址">
+				</div>
+				<div class="col-md-5 col-sm-12 col-md-offset-1">
+					<img src="images/img28.png" alt="uto地址">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//blog-->
+	<div class="footer">
+		<div class="container">
+			<ul class="col-md-6 col-sm-12 ">
+				<li><h3>联系方式</h3></li>
+				<li>地址：四川 成都 吉泰路88号</li>
+				<li>电话：(+86) 028-85964632</li>
+				<li>邮箱： service@uto360.com</li>
+				<li>H　R： Eva@uto360.com</li>
+			</ul>
+			<div class="col-md-6 col-sm-12 ">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<img src="images/img29weixin.png" alt="微信二维码">
+					<p>微信</p>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<img src="images/img30weibo.png" alt="微博二维码">
+					<p>微博</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="copyLink">
+				<p>
+					成都悠途信息技术有限公司 版权所有（2015） Chengdu UTo Information Technology Co.,Ltd. <br>
+						Copyright2015-蜀ICP备00000000号</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->	
+</body>
+</html> 
